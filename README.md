@@ -70,14 +70,6 @@ java-music-player/
 
 ---
 
- Notes
-
-* Supports only **.wav** files (due to Java Sound API limitation).
-* Ensure your system’s Java version supports `javax.sound.sampled`.
-* If you get `FileNotFoundException`, check your file path and name carefully.
-
----
-
 Example Output
 
 ```
@@ -93,11 +85,5 @@ Enter your choice: Q
 Bye!
 ```
 
----
 
-What You Learn
-
-* Handling audio streams in Java
-* Using `AudioInputStream`, `Clip`, and exception handling
-* Basic terminal-based UI logic with `Scanner`
 
