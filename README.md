@@ -1,26 +1,18 @@
 # Music-Player-Java
-Perfect 👍 You’ve built a nice **command-line Music Player in Java**!
-Here’s a clean and professional **README.md** you can use directly in your GitHub repository (`java-music-player`).
 
----
 
-## 🎵 Java Music Player
+ Java Music Player
 
-A simple **command-line music player** built using **Java Sound API**.
-This project demonstrates how to play, stop, reset, and quit audio playback using basic Java libraries — no external dependencies needed!
+ Features
 
----
+ **Play** – Start or resume the audio
+ **Stop** – Pause/stop playback
+ **Reset** – Restart the track from the beginning
+ **Quit** – Close the player safely
 
-### 🧩 Features
 
-* ▶️ **Play** – Start or resume the audio
-* ⏹️ **Stop** – Pause/stop playback
-* 🔁 **Reset** – Restart the track from the beginning
-* ❌ **Quit** – Close the player safely
 
----
-
-### 🛠️ Technologies Used
+Technologies Used
 
 * **Java 17+**
 * **Javax.sound.sampled** package
@@ -28,7 +20,7 @@ This project demonstrates how to play, stop, reset, and quit audio playback usin
 
 ---
 
-### 📂 Project Structure
+ Project Structure
 
 ```
 java-music-player/
@@ -42,7 +34,7 @@ java-music-player/
 
 ---
 
-### 🚀 How to Run
+ How to Run
 
 1. **Clone the repository**
 
@@ -78,7 +70,7 @@ java-music-player/
 
 ---
 
-### ⚠️ Notes
+ Notes
 
 * Supports only **.wav** files (due to Java Sound API limitation).
 * Ensure your system’s Java version supports `javax.sound.sampled`.
@@ -86,7 +78,7 @@ java-music-player/
 
 ---
 
-### 📸 Example Output
+Example Output
 
 ```
 P = Play
@@ -94,27 +86,18 @@ S = Stop
 R = Reset
 Q = Quit
 Enter your choice: P
-🎵 Playing audio...
+Playing audio...
 Enter your choice: S
-⏹️ Audio stopped
+Audio stopped
 Enter your choice: Q
 Bye!
 ```
 
 ---
 
-### 🧠 What You Learn
+What You Learn
 
 * Handling audio streams in Java
 * Using `AudioInputStream`, `Clip`, and exception handling
 * Basic terminal-based UI logic with `Scanner`
 
----
-
-### 🏷️ License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Would you like me to include a **short "About the Project" paragraph** (for recruiters or portfolio use) that highlights your learning and contribution? I can add that section next.
